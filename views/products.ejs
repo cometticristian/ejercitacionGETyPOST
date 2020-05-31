@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        .contenedor {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-around;
+        }
+    </style>
+    </head>
+
+    <body>
+
+        <h1>TODOS LOS PRODUCTOS</h1>
+
+
+        <div class="contenedor">
+            <% for(let i=0; i < products.length; i++) { %>
+            <a href="/products/detail/<%=products[i].id%>">
+                <div class="product">
+                    <li><%=products[i].name%></li>
+                    <li><%=products[i].price%></li>
+                    <li><%=products[i].status%></li>
+                </div>
+            </a>
+            <% } %>
+        </div>
+        <h1>CREAR PRODUCTO</h1>
+        <form action="/products/create" method="POST">
+            <label for="">Nombre</label>
+            <input type="text" name="name">
+            <br>
+            <label for="">Precio</label>
+            <input type="number" name="price">
+            <br>
+            <label for="">Estado</label>
+            <input type="text" name="status">
+            <br>
+            <button type="submit">CREAR</button>
+        </form>
+
+    </body>
+
+</html>

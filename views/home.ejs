@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .contenedor {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-around;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>USADOS</h1>
+    <div class="contenedor">
+        <% for(let i=0; i < used.length; i++) { %>
+        <a href="/products/detail/<%=used[i].id%>">
+            <div class="product">
+                <li><%=used[i].name%></li>
+                <li><%=used[i].price%></li>
+                <li><%=used[i].status%></li>
+            </div>
+        </a>
+        <% } %>
+    </div>
+
+    <br>
+    <hr>
+    <br>
+    <h1>NUEVOS</h1>
+    <div class="contenedor">
+        <% for(let i=0; i < news.length; i++) { %>
+        <a href="/products/detail/<%=news[i].id%>">
+            <div class="product">
+                <li><%=news[i].name%></li>
+                <li><%=news[i].price%></li>
+                <li><%=news[i].status%></li>
+            </div>
+        </a>
+        <% } %>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+[
+    {
+        "id":"1",
+        "name":"Licuadora Blanca",
+        "price":"5000",
+        "status":"usado"
+    },
+    {
+        "id":"2",
+        "name":"Televisor Grande",
+        "price":"50000",
+        "status":"nuevo"
+    },
+    {
+        "id":"3",
+        "name":"Licuadora Negra",
+        "price":"4000",
+        "status":"usado"
+    },
+    {
+        "id":"4",
+        "name":"Televior Chico",
+        "price":"25000",
+        "status":"nuevo"
+    },
+    {
+        "id":"5",
+        "name":"Computadora heavy",
+        "price":"120000",
+        "status":"usado"
+    },
+    {
+        "id":"6",
+        "name":"Computadora light",
+        "price":"80000",
+        "status":"nuevo"
+    }
+]

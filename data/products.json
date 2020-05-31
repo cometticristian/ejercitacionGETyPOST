@@ -1,0 +1,38 @@
+[
+    {
+        "id": 4,
+        "name": "Televior mini",
+        "price": "2000",
+        "status": "usado"
+    },
+    {
+        "id": 5,
+        "name": "Computadora heavy",
+        "price": 120000,
+        "status": "usado"
+    },
+    {
+        "id": 6,
+        "name": "Computadora light",
+        "price": 80000,
+        "status": "nuevo"
+    },
+    {
+        "id": 7,
+        "name": "avion copado",
+        "price": 6,
+        "status": "nuevo"
+    },
+    {
+        "id": 8,
+        "name": "Helicoptero Apache",
+        "price": 26,
+        "status": "nuevo"
+    },
+    {
+        "id": 9,
+        "name": "cosirullo",
+        "price": "20000",
+        "status": "usado"
+    }
+]

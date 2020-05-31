@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="/products/detail/<%=productsEdit.id%>/edit" method="POST">
+        <label for="">Cambiar Nombre</label>
+        <input type="text" name="name" value="<%=productsEdit.name%>">
+        <br>
+        <label for="">Cambiar Precio</label>
+        <input type="text" name="price" value="<%=productsEdit.price%>">
+        <br>
+        <label for="">Cambiar estado</label>
+        <input type="text" name="status" value="<%=productsEdit.status%>">
+        <button type="submit">CONFIRMAR CAMBIOS</button>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <ul>
+        <li><%= product[0].name %></li>
+        <li><%= product[0].price %></li>
+        <li><%= product[0].status %></li>
+    </ul>
+
+    <form action="/products/delete/<%= product[0].id %>" method="POST">
+        <button type="submit">ELIMINAR</button>
+    </form>
+    <br>
+    <a href="/products/detail/<%= product[0].id %>/edit">EDITAR</a>
+
+</body>
+
+</html>
